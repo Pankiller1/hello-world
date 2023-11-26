@@ -24,4 +24,4 @@ jobs:
         pip install -r src/requirements.txt  # Adjust the path as needed
 
     - name: Run tests
-      run: python -m unittest test/test_knapsack.py  # Adjust the path as needed
+      run: python -m unittest test.test_knapsack
